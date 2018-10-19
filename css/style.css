@@ -271,5 +271,33 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
+
+
+  .header-left {
+    margin-left: 20px;
+  }
+
+  .header-left span {
+    display: none;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+
+
+  footer {
+    justify-content: center;
+  }
+
+  .footer-left {
+    display: none;
+  }
+
+  .footer-right {
+    margin-right: 0;
+  }
+
   
 }
