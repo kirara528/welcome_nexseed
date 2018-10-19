@@ -271,5 +271,97 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
+
+
+  .header-left {
+    margin-left: 20px;
+  }
+
+  .header-left span {
+    display: none;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .guideline {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: normal;
+  }
+
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+  }
+
+  .btn {
+    margin-left: 0;
+    font-size: 24px;
+    height: 50px;
+    width: 140px;
+    margin-bottom: 20px;
+  }
+
+  .subtitle {
+    font-size: 24px;
+  }
+
+  .contents {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contents li {
+    margin-left: 0;
+  }
+
+  .contents li p {
+    font-size: 16px;
+    margin:20px 0;
+  }
+
+
+
+ .contact h2 {
+  font-size: 24px;
+ }
+
+ .form .name,
+ .form .email {
+  height: 30px;
+ }
+
+  .form .inquiry {
+    height: 50px;
+  }
+
+
+
+
+
+
+
+
+
+  footer {
+    justify-content: center;
+  }
+
+  .footer-left {
+    display: none;
+  }
+
+  .footer-right {
+    margin-right: 0;
+  }
+
   
 }
