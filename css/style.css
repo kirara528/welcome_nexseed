@@ -147,6 +147,7 @@ strong {
   margin-top: 20px;
 }
 
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -240,7 +241,33 @@ footer {
 }
 
 @media screen and (max-width: 960px) {
-  
+  .contact {
+    padding: 40px 0;
+  }
+
+  .contact .form {
+    flex-direction: column;
+    margin: 30px;
+  }
+
+  .form-left {
+    margin-right: 0px;
+  }
+
+  .form .name,
+  .form .email {
+    width: 80%;
+  }
+
+  .form .inquiry {
+    margin-top: 30px;
+    width: 80%;
+   }
+
+  .contact button {
+    font-size: 20px;
+    padding: 5px 40px;
+  }
 }
 
 @media screen and (max-width: 480px) {
