@@ -285,6 +285,62 @@ footer {
     display: none;
   }
 
+  .welcome {
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+
+  .guideline {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: normal;
+  }
+
+  .guideline li {
+  }
+
+  .guideline li:first-child {
+  }
+
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+  }
+
+  .btn {
+    margin-left: 0;
+    font-size: 24px;
+    height: 50px;
+    width: 140px;
+    margin-bottom: 20px;
+  }
+
+  .btn:first-child {
+  }
+
+  .register {
+  }
+
+.register:hover {
+  }
+
+.login {
+  }
+
+.login:hover {
+  }
+
+
+
+
+
+
+
 
 
   footer {
