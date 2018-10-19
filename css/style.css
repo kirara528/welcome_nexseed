@@ -285,24 +285,14 @@ footer {
     display: none;
   }
 
-  .welcome {
-  }
-
   .title {
     font-size: 30px;
   }
-
 
   .guideline {
     margin-top: 30px;
     font-size: 24px;
     font-weight: normal;
-  }
-
-  .guideline li {
-  }
-
-  .guideline li:first-child {
   }
 
   .btn-group {
@@ -320,19 +310,37 @@ footer {
     margin-bottom: 20px;
   }
 
-  .btn:first-child {
+  .subtitle {
+    font-size: 24px;
   }
 
-  .register {
+  .contents {
+    flex-direction: column;
+    align-items: center;
   }
 
-.register:hover {
+  .contents li {
+    margin-left: 0;
   }
 
-.login {
+  .contents li p {
+    font-size: 16px;
+    margin:20px 0;
   }
 
-.login:hover {
+
+
+ .contact h2 {
+  font-size: 24px;
+ }
+
+ .form .name,
+ .form .email {
+  height: 30px;
+ }
+
+  .form .inquiry {
+    height: 50px;
   }
 
 
