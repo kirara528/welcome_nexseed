@@ -208,57 +208,6 @@ strong {
   transition-duration: 500ms;
 }
 
-/*.contact {
-  background-color: #ebf4f5;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.contact h2 {
-  font-size: 36px;
-  margin-top: 20px;
-}
-
-.form {
-  display: flex;
-  text-align: center;
-  padding-top: 50px;
-}
-
-.form-left {
-  display: flex;
-  flex-direction: column;
-  margin-right: 50px;
-}
-
-.name {
-  height: 45px;
-  width: 400px;
-
-}
-
-.email {
-  height: 45px;
-  width: 400px;
-  margin-top: 20px;
-}
-
-.inquiry {
-  height: 115px;
-  width: 400px;
-}
-
-.submit {
-  display: block;
-  margin: 40px auto 20px auto;
-  background-color: #1dace0;
-  border: none;
-  border-radius: 10px;
-  font-size: 24px;
-  color: #fff;
-  padding: 18px 32px;
-}*/
 
 footer {
   background-color: #233f51;
@@ -278,4 +227,22 @@ footer {
 
 .footer-right {
   margin-right: 80px;
+}
+
+@media screen and (max-width: 1280px) {
+  .comtents {
+    justify-content: space-around;
+  }
+
+  .contents li {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  
+}
+
+@media screen and (max-width: 480px) {
+  
 }
